@@ -1,3 +1,5 @@
+if not data.raw["item-subgroup"]["bob-assembly-machine"] then return end --Bob's assembling machines not installed
+
 data:extend{
 	{
 		type = "build-entity-achievement",
@@ -5,6 +7,7 @@ data:extend{
 		order = "a",
 		to_build = "assembling-machine-6",
 		icon = "__Achiever__/graphics/bobs/flash-crafter.png",
+		icon_size = 128
 	},
 	{
 		type = "build-entity-achievement",
@@ -12,6 +15,7 @@ data:extend{
 		order = "b",
 		to_build = "oil-refinery-4",
 		icon = "__Achiever__/graphics/bobs/a-refined-taste.png",
+		icon_size = 128
 	},
 	{
 		type = "build-entity-achievement",
@@ -19,6 +23,7 @@ data:extend{
 		order = "c",
 		to_build = "chemical-plant-4",
 		icon = "__Achiever__/graphics/bobs/we-have-chemistry.png",
+		icon_size = 128
 	},
 	{
 		type = "research-achievement",
@@ -26,6 +31,7 @@ data:extend{
 		order = "d",
 		technology = "automation-4",
 		icon = "__Achiever__/graphics/bobs/what-if-we-could-craft-even-faster.png",
+		icon_size = 128
 	},
 
 }

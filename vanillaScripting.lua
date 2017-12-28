@@ -1,8 +1,3 @@
--- Only add scripting if vanilla achievements are enabled
-if not settings.startup["achiever-vanilla-achievements-support"].value then
-	return
-end
-
 script.on_init(function(e)
 	global.trees_destroyed = 0
 end
