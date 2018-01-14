@@ -1,10 +1,10 @@
 {
-    "name": "Achiever",
+    "name": "MoreAchievements",
     "version": "0.4.0",
-    "title": "Achiever",
+    "title": "More Achievements",
     "author": "Gangsir, Bilka",
     "homepage": "https://github.com/Bilka2/Achiever",
     "factorio_version": "0.16",
     "dependencies": ["base >= 0.16", "? boblogistics", "? bobmining", "? bobassembly"],
-    "description": "Adds many more achievements for players that feel there aren't enough, ranging from progression based to difficult. When used with Bob's/Angel's mods, it adds some achievements for them. See the mod portal page for a full list."
+    "description": "Adds many more achievements for players that feel there aren't enough, ranging from progression based to difficult. When used with Bob's/Angel's mods, it adds some achievements for them. See the mod portal page for a full list. Made by Gangsir, maintained by Bilka, with permission."
 }

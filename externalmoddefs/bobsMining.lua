@@ -5,7 +5,7 @@ data:extend{
 		name = "mining-the-area",
 		order = "a",
 		to_build = "bob-area-mining-drill-1",
-		icon = "__Achiever__/graphics/bobs/mining-the-area.png",
+		icon = "__MoreAchievements__/graphics/bobs/mining-the-area.png",
 		icon_size = 128
 	},
 	{
@@ -13,7 +13,7 @@ data:extend{
 		name = "no-ores-land",
 		order = "b",
 		to_build = "bob-area-mining-drill-4",
-		icon = "__Achiever__/graphics/bobs/no-ores-land.png",
+		icon = "__MoreAchievements__/graphics/bobs/no-ores-land.png",
 		icon_size = 128
 	},
 	{
@@ -22,7 +22,7 @@ data:extend{
 		order = "c",
 		item_product = "diamond-axe",
 		amount = 1,
-		icon = "__Achiever__/graphics/bobs/can-i-axe-you-a-question.png",
+		icon = "__MoreAchievements__/graphics/bobs/can-i-axe-you-a-question.png",
 		icon_size = 128,
 		limited_to_one_game = true,
 	},
@@ -31,7 +31,7 @@ data:extend{
 		name = "ultiminer",
 		order = "d",
 		to_build = "bob-mining-drill-4",
-		icon = "__Achiever__/graphics/bobs/ultiminer.png",
+		icon = "__MoreAchievements__/graphics/bobs/ultiminer.png",
 		icon_size = 128
 	},
 	{
@@ -39,7 +39,7 @@ data:extend{
 		name = "pumped-up",
 		order = "d",
 		to_build = "bob-pumpjack-4",
-		icon = "__Achiever__/graphics/bobs/pumped-up.png",
+		icon = "__MoreAchievements__/graphics/bobs/pumped-up.png",
 		icon_size = 128
 	},
 }

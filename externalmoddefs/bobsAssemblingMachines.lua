@@ -6,7 +6,7 @@ data:extend{
 		name = "flash-crafter",
 		order = "a",
 		to_build = "assembling-machine-6",
-		icon = "__Achiever__/graphics/bobs/flash-crafter.png",
+		icon = "__MoreAchievements__/graphics/bobs/flash-crafter.png",
 		icon_size = 128
 	},
 	{
@@ -14,7 +14,7 @@ data:extend{
 		name = "a-refined-taste",
 		order = "b",
 		to_build = "oil-refinery-4",
-		icon = "__Achiever__/graphics/bobs/a-refined-taste.png",
+		icon = "__MoreAchievements__/graphics/bobs/a-refined-taste.png",
 		icon_size = 128
 	},
 	{
@@ -22,7 +22,7 @@ data:extend{
 		name = "we-have-chemistry",
 		order = "c",
 		to_build = "chemical-plant-4",
-		icon = "__Achiever__/graphics/bobs/we-have-chemistry.png",
+		icon = "__MoreAchievements__/graphics/bobs/we-have-chemistry.png",
 		icon_size = 128
 	},
 	{
@@ -30,7 +30,7 @@ data:extend{
 		name = "what-if-we-could-craft-even-faster",
 		order = "d",
 		technology = "automation-4",
-		icon = "__Achiever__/graphics/bobs/what-if-we-could-craft-even-faster.png",
+		icon = "__MoreAchievements__/graphics/bobs/what-if-we-could-craft-even-faster.png",
 		icon_size = 128
 	},
 
