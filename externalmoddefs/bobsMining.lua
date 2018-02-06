@@ -1,4 +1,4 @@
-if data.raw.mining-drill["bob-area-mining-drill-1"] then
+if data.raw["mining-drill"]["bob-area-mining-drill-1"] then
 	data:extend{{
 		type = "build-entity-achievement",
 		name = "mining-the-area",
@@ -8,7 +8,7 @@ if data.raw.mining-drill["bob-area-mining-drill-1"] then
 		icon_size = 128
 	}}
 end 
-if data.raw.mining-drill["bob-area-mining-drill-4"] then
+if data.raw["mining-drill"]["bob-area-mining-drill-4"] then
 	data:extend{{
 		type = "build-entity-achievement",
 		name = "no-ores-land",
@@ -18,7 +18,7 @@ if data.raw.mining-drill["bob-area-mining-drill-4"] then
 		icon_size = 128
 	}}
 end
-if data.raw.mining-tool["diamond-axe"] then
+if data.raw["mining-tool"]["diamond-axe"] then
 	data:extend{{
 		type = "produce-achievement",
 		name = "can-i-axe-you-a-question",
@@ -30,7 +30,7 @@ if data.raw.mining-tool["diamond-axe"] then
 		limited_to_one_game = true,
 	}}
 end
-if data.raw.mining-drill["bob-mining-drill-4"] then
+if data.raw["mining-drill"]["bob-mining-drill-4"] then
 	data:extend{{
 		type = "build-entity-achievement",
 		name = "ultiminer",
@@ -40,7 +40,7 @@ if data.raw.mining-drill["bob-mining-drill-4"] then
 		icon_size = 128
 	}}
 end
-if data.raw.mining-drill["bob-pumpjack-4"] then
+if data.raw["mining-drill"]["bob-pumpjack-4"] then
 	data:extend{{
 		type = "build-entity-achievement",
 		name = "pumped-up",

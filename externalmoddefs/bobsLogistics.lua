@@ -20,7 +20,7 @@ if data.raw.technology["bob-robo-modular-1"] then
 		icon_size = 128
 	}}
 end 
-if data.raw.transport-belt["purple-transport-belt"] then
+if data.raw["transport-belt"]["purple-transport-belt"] then
 	data:extend{{
 		type = "build-entity-achievement",
 		name = "belting-around-at-the-speed-of-sound",

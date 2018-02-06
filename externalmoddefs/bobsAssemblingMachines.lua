@@ -1,6 +1,6 @@
 if not data.raw["item-subgroup"]["bob-assembly-machine"] then return end --Bob's assembling machines not installed
 
-if data.raw.assembling-machine["assembling-machine-6"] then
+if data.raw["assembling-machine"]["assembling-machine-6"] then
 	data:extend{{
 		type = "build-entity-achievement",
 		name = "flash-crafter",
@@ -10,7 +10,7 @@ if data.raw.assembling-machine["assembling-machine-6"] then
 		icon_size = 128
 	}}
 end
-if data.raw.assembling-machine["oil-refinery-4"] then
+if data.raw["assembling-machine"]["oil-refinery-4"] then
 	data:extend{{
 		type = "build-entity-achievement",
 		name = "a-refined-taste",
@@ -20,7 +20,7 @@ if data.raw.assembling-machine["oil-refinery-4"] then
 		icon_size = 128
 	}}
 end
-if data.raw.assembling-machine["chemical-plant-4"] then
+if data.raw["assembling-machine"]["chemical-plant-4"] then
 	data:extend{{
 		type = "build-entity-achievement",
 		name = "we-have-chemistry",
