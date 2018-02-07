@@ -44,6 +44,7 @@ It also adds achievements for certain mods when installed.
 * Steampunk : Generate 10GJ of energy per hour with steam only.
 * The olden days... : Win the game without building a fluid wagon.
 * Trains are too hard! : Win the game without building a rail system.
+* Don't panic : Launch your car into space.
 
 ## With Bob's Logistics
 

@@ -125,4 +125,11 @@ data:extend{
 		icon = "__MoreAchievements__/graphics/well-balanced.png",
 		icon_size = 128
 	},
+  {
+		type = "achievement",
+		name = "dont-panic",
+		order = "y",
+		icon = "__MoreAchievements__/graphics/dont-panic.png",
+		icon_size = 128
+	}
 }
