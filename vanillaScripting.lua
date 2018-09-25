@@ -107,7 +107,7 @@ function onPlaced(e)
 	end
 end
 script.on_event(defines.events.on_built_entity, onPlaced)
-script.on_event(defines.events.on_robot_built_entity, onPlaced)
+--script.on_event(defines.events.on_robot_built_entity, onPlaced) We don't get a player index here, so we are unable to attribute the achievement to a player
 
 function onResearch(e)
 	local research = e.research
