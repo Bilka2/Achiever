@@ -81,6 +81,7 @@ end
 script.on_event(defines.events.on_entity_settings_pasted, onSettingsPasted)
 
 function onConsoleChat(e)
+	if not e.player_index then return end
 	local player = game.players[e.player_index]
 	if player then
 		player.unlock_achievement("hello-world")
